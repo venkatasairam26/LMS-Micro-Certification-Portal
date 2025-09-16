@@ -10,7 +10,7 @@ const { open } = require("sqlite");
 app.use(cors());
 app.use(express.json());
 
-const dbPath = path.join(__dirname, "database.db");
+const dbPath = path.join("/tmp", "database.db");
 let db;
 
 async function initDB() {
