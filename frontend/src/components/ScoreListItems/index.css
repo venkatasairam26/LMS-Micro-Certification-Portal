@@ -1,0 +1,23 @@
+.score-list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 350px;
+}
+
+.score-list-item p { margin: 0; }
+.score-list-item p.name { flex: 1; }
+.score-list-item p.score { width: 100px; text-align: center; }
+.score-list-item p.rank { width: 80px; text-align: right; }

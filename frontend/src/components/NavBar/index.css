@@ -1,0 +1,29 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text);
+  padding: 14px 0;
+  font-size: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.nav a{
+  text-decoration: none;
+  color: var(--text);
+  opacity: 0.9;
+}
+.nav a:hover{
+  text-decoration: underline;
+}
+.nav button{
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav button:hover{
+  background-color: var(--primary-600);
+}
